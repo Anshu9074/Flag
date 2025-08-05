@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.nav-button {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.bk-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background-color: #f0f0f0; /* light gray background */
+  border-radius: 8px;
+  width: fit-content;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+  margin-left: 67px;
+}
+
+.bk-btn:hover {
+  background-color: #e0e0e0;
+  transform: translateX(-5px); /* slightly darker on hover */
+}
+
+.bk-btn i {
+  font-size: 16px;
+  color: #333;
+}
+
+.bk-btn button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #333;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+}
+
+.cards1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.cd-detail {
+  height: 600px;
+  width: 600px;
+  padding-left: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cards2 {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  margin: 20px;
+  max-width: 500px;
+  font-family: Arial, sans-serif;
+  margin-top: 140px;
+  margin-left: 60px;
+}
+
+.cards2 h3 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  color: #333;
+}
+
+.cd-dtl2 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cd-dtl2 div {
+  flex: 1;
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+  white-space: pre-line; /* Keeps line breaks if you format content nicely */
+}
+
+.cd-dtl3 {
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 40px;
+  display: flex;
+  
+  gap: 12px;
+}
+
+.cd-dtl3 p {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.cd-dtl3 ul {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.cd-dtl3 li {
+  background-color: #eaeaea;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  color: #333;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

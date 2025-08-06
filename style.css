@@ -168,3 +168,55 @@ body.dark-mode .search-icon {
     grid-template-columns: 1fr;
   }
 }
+
+.card_wrapper a,
+.card_wrapper {
+  text-decoration: none;
+}
+
+.dark-button:hover {
+  /* background-color: #e0e0e0; */
+  transform: translateX(-5px); /* slightly darker on hover */
+}
+
+@media (max-width: 548px) {
+  .main-header h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 548px) {
+  .dark-button h5 {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 548px) {
+  .dark-button {
+    padding: 0px;
+    padding-top: 15px;
+  }
+}
+
+@media (max-width: 548px) {
+  .fa-regular.fa-moon {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 548px) {
+  .main-header {
+    padding: 0px;
+    padding-left: 12px;
+    padding-top: 12px;
+  }
+}
+   
+
+    @media (max-width: 548px) {
+  .container {
+     display: table-cell;
+    padding-left: 80px !important;
+  }
+}
